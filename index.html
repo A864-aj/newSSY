@@ -48,6 +48,21 @@
 		.dropdown-menu>li:hover>.dropdown-submenu {
 			display: block;
 		}
+		@media (max-width: 480px) {
+			.dropdown-menu .dropdown-submenu {
+			display: none;
+			position: absolute;
+			left: 50%;
+			top: -7px;
+		}
+
+		.dropdown-menu .dropdown-submenu-left {
+			right: 50%;
+			left: auto;
+		}
+
+           
+        }
 	</style>
 
 	<title>SSY-SCIENCE OF SILENCE YOG</title>
@@ -102,7 +117,7 @@
 									Trainings
 								</a>
 								<ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-									<li><a class="dropdown-item" href="#"></a></li>
+
 									<li>
 										<a class="dropdown-item" href="#">Basic</a>
 										<ul class="dropdown-menu dropdown-submenu">
